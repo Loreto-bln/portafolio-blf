@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body {
+    background-color: darkcyan !important;
+}
+
+p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: "Qwitcher Grypen";
+    font-weight: 5000;
+    font-style: bold;
+}
+
+.text-m_own {
+    font-family: "Qwitcher Grypen";
+    font-weight: 2000;
+    font-style: bold;
+}
+
+.container_own {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.card_own {
+    background-color: aliceblue;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    border: 1px solid black;
+}
+
+.section_own {
+    width: 50%;
+}
+
+.foto_own {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 12px;
+}
+
+.status_own {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    margin: 16px;
+    margin-right: 50px;
+}
+
+.status-p_own {
+    margin: 0;
+    margin-left: 8px;
+}
+
+#puntito {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: 6px;
+    align-items: center;
+}
+
+.btn-black_own {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+.btn-black_own:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-border_own {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.btn-border_own:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.logo_own {
+    height: 50px;
+    width: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.brands_own {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.border-b_own {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(24, 23, 23);
+
+}
+
+.nav_own {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(235, 229, 229);
+    position: sticky;
+    top: 50px;
+    left: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.escuela {
+    display: flex;
+    padding: 65px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    
+}
+.experiencia {
+    display: flex;
+    padding: 65px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 1px;
+}
+.t_own {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    font-display: calc(center);
+}
